@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Blade : MonoBehaviour
 {
-    public float sliceForce = 5f;
+    public float sliceForce = 20f;
     public float minSliceVelocity = 0.01f;
 
     private Camera mainCamera;
