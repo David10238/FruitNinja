@@ -622,7 +622,7 @@ MonoBehaviour:
   fruitPrefabs:
   - {fileID: 7873462857911507148, guid: 7e4d00b532c02aa489f3f8af3300ddb4, type: 3}
   bombPrefab: {fileID: 4289898980244231775, guid: cac2464625570dd49bc2cc6552a80f7a, type: 3}
-  bombSpawnChance: 0.05
+  bombSpawnChance: 0.15
   minSpawnDelay: 0.25
   maxSpawnDelay: 1
   minAngle: -15
@@ -750,7 +750,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 10000, y: 10000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &993203264
 MonoBehaviour:
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
